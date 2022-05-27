@@ -1,11 +1,3 @@
-# Airline IKARUS website
+# An Air line Website created Using PHP, HTML, CSS, JAVA SCRIPT, SQL
 
-  Created by: Anastasia Kassari
-  
-  Date created: April 2017
-  
-  Info: An airline website created for an undergraduate project in web designing class. 
-This airline company does not exist. Any resemblance to existing companies, services and products is
-entirely coincidental.
-
-  Requirements: All graphical interface must be created with HTML and CSS only (not Javascript).
+this website is connected to the data base (phpMyAdmin) that has the SQL tables to get the data from it. 
