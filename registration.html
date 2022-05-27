@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" media="only screen and (max-width: 414px)" href="css/mob_style.css" />
+	<link rel="stylesheet" media="only screen and (min-width: 415px)" href="css/style.css" />
+	<title> Registration Page </title>
+</head>
+	
+<body>
+
+	<div class="banner">
+		<ul class="banner_list">
+		
+			<!-- logo -->
+			<li> 
+				<img src="images/fly.jpg" alt="fly Logo" width="80" style=float:left>
+			</li>
+			
+			<!-- Banner Bar -->
+			<li>
+				<ul class="banner_buttons">
+					
+					<li id="home">
+						<a href="main.html">
+							<button> HOME </button>
+						</a>
+					</li>
+					
+					<li id="viewflight">
+						<a href="viewflight.html">
+							<button> VIEWFLIGHT </button>
+						</a>
+					</li>
+					
+
+					</li>
+					<li id="registration">
+						<a href="registration.html">
+							<button> <b>REGISTRATION </b> </button>
+						</a>
+					</li>
+
+				</ul>
+			</li>
+			
+		</ul>
+	</div>
+	
+	<h1> Registration </h1>
+	
+	
+	<div class="reg_info">
+	
+		<form method="POST">
+			
+			Username <font color="red"> * </font> <br> 
+			<input type="text" name="username" required placeholder="UserName" /> <br>
+			
+			Password <font color="red"> * </font> <br>
+			<input type="password" name="psswrd" required placeholder="*******"/> <br>
+			
+			Title <br>
+			<select name="title">
+				<option selected disabled> - </option>
+				<option value="mr"> Mr. </option>
+				<option value="mrs"> Mrs. </option>
+			</select> <br>
+			
+			First name <font color="red"> * </font> <br> 
+			<input type="text" name="fname" required placeholder="FirstName"/> <br>
+			
+			Last name <font color="red"> * </font> <br> 
+			<input type="text" name="lname" required placeholder="LastName" /> <br>
+			
+			Date of birth <font color="red"> * </font> <br> 
+			<input type="date" name="bday" min="1900-01-01" max="2017-03-31" required> <br>
+			
+			Address <br> 
+			<input type="text" name="addr" placeholder="Address"/> <br>
+			
+			Email <font color="red"> * </font> <br> 
+			<input type="email" name="email" required placeholder="Email"/> <br>
+			
+			Phone Number <br>
+			<input type="tel" name="phone" minlength="10" maxlength="10" placeholder="PhoneNumber"/> <br>
+			
+			<input type="checkbox" name="terms" required /> I agree with the <a href="terms.pdf"> terms and conditions</a> <font color="red"> * </font> <br> 
+			
+			<input type="submit" value="Submit">
+			
+		</form>
+
+		<br>
+		<br>
+
+		<p id=donthave>
+			You Already Have an account! login in now and Enjoy our deal  <a href="login.html" title="Login"> login here</a> and start flying with
+			the best airline software wordlwide! <br>
+			</p>
+		
+	</div>
+	
+	
+	<div class="footer">
+		<p>
+			&copy; 2022 <abbr title="author">Team 3</abbr> 
+			&bull; Created for database course: "© King Fahd University of Petroleum & Minerals".
+		</p>
+	</div>
+	
+</body>
+	
+</html>

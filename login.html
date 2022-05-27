@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" media="only screen and (max-width: 414px)" href="css/mob_style.css" />
+	<link rel="stylesheet" media="only screen and (min-width: 415px)" href="css/style.css" />
+	<script src="Script.js"> </script>
+
+	<title> Login Page </title>
+</head>
+	
+<body>
+	<div class="banner">
+		<ul class="banner_list">
+		
+			<!-- logo -->
+			<li> 
+				<img src="images/fly.jpg" alt="fly Logo" width="80" style=float:left>
+			</li>
+			
+			<!-- Banner Bar -->
+			<li>
+				<ul class="banner_buttons">
+					
+					<li id="home">
+						<a href="main.html">
+							<button> HOME </button>
+						</a>
+					</li>
+					
+					<li id="viewflight">
+						<a href="viewflight.html">
+							<button> VIEWFLIGHT </button>
+						</a>
+					</li>
+					
+					<li id="login">
+						<a href="login.html">
+							<button> <b>LOGIN </b> </button>
+						</a>
+					</li>
+
+					
+				</ul>
+			</li>
+			
+		</ul>
+	</div>
+
+<h1>LogIn</h1>
+
+<!--new login-->
+<!--
+<div class="container">
+	<div class="main">
+	<form id="form_id" method="post" name="myform">
+	<label>User Name :</label>
+	<input type="text" name="username" id="username"/>
+	<label>Password :</label>
+	<input type="password" name="password" id="password"/>
+	<input type="button" value="Login" id="submit" onclick="validate()"/>
+	</form>
+	//-->
+
+
+<div class="main">
+	<form method="POST" id=form_id>
+		Username <font color="red"> * </font> <br> 
+		<input type="text" name="username" required placeholder="UserName" id="username" /> <br>
+		
+		Password <font color="red"> * </font> <br>
+		<input type="password" name="psswrd" required placeholder="*******" id="password" /> <br>
+			
+		<input type="checkbox" value="lsRememberMe" id="rememberme"> <label for="rememberme">Remember me</label><br>
+	</br>
+  		<input type="submit" value="Login" id="submit" onclick="validate()">	<!--change submit to button for it to work-->
+	</form>
+	<br>
+	<br>
+	<p id="donthave";
+	>
+		Don't have an account? you can start by <a href="registration.html" title="Registration"> registering here</a> and start flying with
+		the best airline software wordlwide! <br>
+		</p>
+</div>
+
+
+<!--
+<div class="log_info">
+	<form method="POST" action=login.html id=postmethod>
+		Username <font color="red"> * </font> <br> 
+		<input type="text" name="username" required placeholder="UserName" id="username" /> <br>
+		
+		Password <font color="red"> * </font> <br>
+		<input type="password" name="psswrd" required placeholder="*******" id="password" /> <br>
+			
+		<input type="checkbox" value="lsRememberMe" id="rememberme"> <label for="rememberme">Remember me</label><br>
+	</br>
+  		<input type="submit" value="Login" id="submit" onclick="lsRememberMe()">	
+	</form>
+	<br>
+	<br>
+	<p>
+		Don't have an account? you can start by <a href="registration.html" title="Registration"> registering here</a> and start flying with
+		the best airline software wordlwide! <br>
+		</p>
+</div>
+//-->
+
+<div class="footer">
+	<p>
+		&copy; 2022 <abbr title="author">Team 3</abbr> 
+		&bull; Created for database course: "© King Fahd University of Petroleum & Minerals".
+	</p>
+</div>
+</body>
+</html>
